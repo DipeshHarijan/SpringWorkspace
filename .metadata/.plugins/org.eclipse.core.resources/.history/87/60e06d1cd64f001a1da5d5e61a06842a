@@ -1,0 +1,15 @@
+package com.cts.ui;
+
+import com.cts.one.Greet;
+import com.cts.one.GreetService;
+
+public class DidApp01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ApplicationContext context = new classpath.
+		GreetService gs = context.getBean("g1");
+		System.out.println(gs.greet("Dipesh"));
+	}
+
+}

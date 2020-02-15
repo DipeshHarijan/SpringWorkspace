@@ -1,0 +1,16 @@
+package com.cts.one;
+
+public class GreetServiceEnhancedImpl {
+	private String greeting;
+
+	public String getGreeting(String userName) {
+		return greeting+ userName;
+	}
+
+	public void setGreeting(String greeting) {
+		this.greeting = greeting;
+	}
+	
+	
+
+}

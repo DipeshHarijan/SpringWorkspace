@@ -1,0 +1,12 @@
+package com.cts.one;
+
+public class Greet implements GreetService{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	String greet(String)
+
+}

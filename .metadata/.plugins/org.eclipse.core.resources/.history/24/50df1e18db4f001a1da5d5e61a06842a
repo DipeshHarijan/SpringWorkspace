@@ -1,0 +1,6 @@
+package com.cts.one;
+import com.cts.one.Greet;
+
+public interface GreetService {
+	public String greet(String userName);
+}
