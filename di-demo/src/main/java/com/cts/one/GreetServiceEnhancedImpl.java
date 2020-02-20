@@ -13,8 +13,17 @@ public class GreetServiceEnhancedImpl implements GreetService{
 
 	public String greet(String userName) {
 		// TODO Auto-generated method stub
-		return "Hello "+userName;
+		return greeting+userName;
 	}
+
+	public GreetServiceEnhancedImpl(String greeting) {
+		super();
+		this.greeting = greeting;
+	}
+
+//	public GreetServiceEnhancedImpl() {
+//		super();
+//	}
 	
 	
 
